@@ -9,30 +9,31 @@ _dis = 200; // Area around the marker, in Meters.
 //Long Range Radio
 
 _backpacksAllowed = [
-//The slots that can use the radios
-"B_Officer_F",
-"B_Survivor_F",
-"B_Soldier_TL_F",
-"B_Patrol_Soldier_TL_F",
-"B_Soldier_SL_F",
-"B_diver_TL_F",
-"B_recon_TL_F",
-"B_Pilot_F",
-"B_Fighter_Pilot_F",
-"B_Helipilot_F",
-"B_crew_F"
+	//The slots that can use the radios
+	"B_Officer_F",
+	"B_Survivor_F",
+	"B_Soldier_TL_F",
+	"B_Patrol_Soldier_TL_F",
+	"B_Soldier_SL_F",
+	"B_diver_TL_F",
+	"B_recon_TL_F",
+	"B_Pilot_F",
+	"B_Fighter_Pilot_F",
+	"B_Helipilot_F",
+	"B_crew_F",
+	"B_spotter_F"
 ];
 
 _backpacksRestricted = [
-// The Radios
-"OPXT_aor1_1523",
-"OPXT_aor2_1523",
-"OPXT_aoru_1523",
-"OPXT_multicam_1523",
-"OPXT_multicamb_1523",
-"OPXT_surpat_1523",
-"OPXT_goao_1523_S",
-"OPXT_goa_1523_S"
+	// The Radios
+	"OPXT_aor1_1523",
+	"OPXT_aor2_1523",
+	"OPXT_aoru_1523",
+	"OPXT_multicam_1523",
+	"OPXT_multicamb_1523",
+	"OPXT_surpat_1523",
+	"OPXT_goao_1523_S",
+	"OPXT_goa_1523_S"
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////
