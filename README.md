@@ -1,0 +1,1 @@
+AM2_Template.Stratis
