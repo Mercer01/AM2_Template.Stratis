@@ -8,25 +8,24 @@ _dis = 200; // Area around the marker, in Meters.
 
 //Uniforms
 
-_uniformAllowed = [
-//The slots that can use the uniforms
-"B_Officer_F",
-"B_recon_TL_F",
-"B_spotter_F",
-"B_sniper_F",
-"B_Pilot_F"
+_uniformAllowed = [ 	//The slots that can use the uniforms
+	"B_Officer_F",
+	"B_recon_TL_F",
+	"B_spotter_F",
+	"B_sniper_F",
+	"B_Pilot_F"
 ];
 
 _uniformRestricted = [
-// The Uniforms
-"AM2_MC_Uniform_Ghillie",
-"AM2_MC_Uniform_Ghillie_Crye",
-"AM2_AOR2_Uniform_Ghillie",
-"AM2_AOR2_Uniform_Ghillie_Crye",
-"U_B_FullGhillie_ard", 
-"U_B_T_FullGhillie_tna_F", 
-"U_B_FullGhillie_lsh", 
-"U_B_FullGhillie_sard"
+	// The Uniforms
+	"AM2_MC_Uniform_Ghillie",
+	"AM2_MC_Uniform_Ghillie_Crye",
+	"AM2_AOR2_Uniform_Ghillie",
+	"AM2_AOR2_Uniform_Ghillie_Crye",
+	"U_B_FullGhillie_ard", 
+	"U_B_T_FullGhillie_tna_F", 
+	"U_B_FullGhillie_lsh", 
+	"U_B_FullGhillie_sard"
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////

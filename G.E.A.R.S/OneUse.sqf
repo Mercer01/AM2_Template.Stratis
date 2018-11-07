@@ -9,35 +9,35 @@ _dis = 200; // Area around the marker, in Meters.
 //Disposables
 
 _missileSoldiers = [
-//The slots that can use the weapons
-"B_Officer_F",
-"B_Soldier_F",
-"B_Soldier_SL_F",
-"B_Soldier_lite_F",
-"B_Soldier_TL_F",
-"B_soldier_AT_F",
-"B_soldier_AA_F",
-"B_soldier_LAT_F",
-"B_Pilot_F"
+	//The slots that can use the weapons
+	"B_Officer_F",
+	"B_Soldier_F",
+	"B_Soldier_SL_F",
+	"B_Soldier_lite_F",
+	"B_Soldier_TL_F",
+	"B_soldier_AT_F",
+	"B_soldier_AA_F",
+	"B_soldier_LAT_F",
+	"B_Pilot_F"
 ];
 
 _missileSpecialised = [
-// The Weapons
-"rhs_weap_M136",
-"rhs_weap_M136_hedp",
-"rhs_weap_M136_hp",
-"rhs_weap_m72a7",
-"launch_NLAW_F"
+	// The Weapons
+	"rhs_weap_M136",
+	"rhs_weap_M136_hedp",
+	"rhs_weap_M136_hp",
+	"rhs_weap_m72a7",
+	"launch_NLAW_F"
 ];
 
 _ammo = [
-// The ammo for those weapons
-"rhs_m136_mag",
-"rhs_m136_hedp_mag",
-"rhs_m136_hp_mag",
-"rhs_m72a7_mag",
-"rhs_rpg26_mag",
-"rhs_rshg2_mag"
+	// The ammo for those weapons
+	"rhs_m136_mag",
+	"rhs_m136_hedp_mag",
+	"rhs_m136_hp_mag",
+	"rhs_m72a7_mag",
+	"rhs_rpg26_mag",
+	"rhs_rshg2_mag"
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////

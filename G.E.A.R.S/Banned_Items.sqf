@@ -4,17 +4,16 @@
 //Banned Items
 
 [] spawn {
-_restrictedItems = [
-// Well...the list of banned items, what do you expect? :P
-"rhsusf_5Rnd_doomsday_Buck",
-"rhsusf_8Rnd_doomsday_Buck",
-"optic_Nightstalker",
-"optic_tws",
-"optic_tws_mg",
-"rhsusf_acc_anpas13gv1",
-"rhs_weap_m32",
-"B_rhsusf_B_BACKPACK"
-];
+	_restrictedItems = [ 	// Well...the list of banned items, what do you expect? :P
+		"rhsusf_5Rnd_doomsday_Buck",
+		"rhsusf_8Rnd_doomsday_Buck",
+		"optic_Nightstalker",
+		"optic_tws",
+		"optic_tws_mg",
+		"rhsusf_acc_anpas13gv1",
+		"rhs_weap_m32",
+		"B_rhsusf_B_BACKPACK"
+	];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////
 	while {true} do {

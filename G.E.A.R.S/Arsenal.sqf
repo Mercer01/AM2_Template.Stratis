@@ -1226,7 +1226,6 @@ if (isServer) then {
 		
 		//Other
 		"ACE_TacticalLadder_Pack"
-		
 	];
 	
 	[_box, _itemsWhitelist, true, false] call BIS_fnc_addVirtualItemCargo;       

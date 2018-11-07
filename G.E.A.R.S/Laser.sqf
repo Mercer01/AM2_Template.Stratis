@@ -9,28 +9,28 @@ _dis = 200; // Area around the marker, in Meters.
 //Laser Designators
 
 _DesignatorsAllowed = [
-//The slots that can use the designators
-"B_Officer_F",
-"B_Survivor_F",
-"B_Soldier_TL_F",
-"B_Patrol_Soldier_TL_F",
-"B_Soldier_SL_F",
-"B_diver_TL_F",
-"B_spotter_F",
-"B_recon_TL_F",
-"B_Pilot_F",
-"B_Fighter_Pilot_F",
-"B_Helipilot_F"
+	//The slots that can use the designators
+	"B_Officer_F",
+	"B_Survivor_F",
+	"B_Soldier_TL_F",
+	"B_Patrol_Soldier_TL_F",
+	"B_Soldier_SL_F",
+	"B_diver_TL_F",
+	"B_spotter_F",
+	"B_recon_TL_F",
+	"B_Pilot_F",
+	"B_Fighter_Pilot_F",
+	"B_Helipilot_F"
 ];
 
 _restrictedDesignators = [
-// The Designators
-"Laserdesignator_02_ghex_F",
-"Laserdesignator_02",
-"Laserdesignator_01_khk_F",
-"Laserdesignator_03",
-"Laserdesignator",
-"Laserdesignator_02_ghex_F"
+	// The Designators
+	"Laserdesignator_02_ghex_F",
+	"Laserdesignator_02",
+	"Laserdesignator_01_khk_F",
+	"Laserdesignator_03",
+	"Laserdesignator",
+	"Laserdesignator_02_ghex_F"
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////

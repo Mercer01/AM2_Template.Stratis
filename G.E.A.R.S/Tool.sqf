@@ -9,16 +9,16 @@ _dis = 200; // Area around the marker, in Meters.
 //Fortify Tool
 
 _toolAllowed = [
-//The slots that can use the tool
-"B_Officer_F",
-"B_Patrol_Soldier_TL_F",
-"B_crew_F",
-"B_Pilot_F"
+	//The slots that can use the tool
+	"B_Officer_F",
+	"B_Patrol_Soldier_TL_F",
+	"B_crew_F",
+	"B_Pilot_F"
 ];
 
 _restrictedTool = [
-// The Fortify Tool
-"ACE_Fortify"
+	// The Fortify Tool
+	"ACE_Fortify"
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////

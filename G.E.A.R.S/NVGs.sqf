@@ -6,17 +6,16 @@
 [] spawn {
 private ["_ItemsAllowed","_restrictedItems"];
 _ItemsAllowed = [
-//The slots that can use the NVGs
-"B_Officer_F",
-"B_Pilot_F",
-"B_Fighter_Pilot_F",
-"B_Helipilot_F"
+	//The slots that can use the NVGs
+	"B_Officer_F",
+	"B_Pilot_F",
+	"B_Fighter_Pilot_F",
+	"B_Helipilot_F"
 ];
-_restrictedItems = [
-// The NVGs
-"NVGogglesB_blk_F",
-"NVGogglesB_grn_F",
-"NVGogglesB_gry_F"
+_restrictedItems = [ 	// The NVGs
+	"NVGogglesB_blk_F",
+	"NVGogglesB_grn_F",
+	"NVGogglesB_gry_F"
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////

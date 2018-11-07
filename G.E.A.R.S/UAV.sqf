@@ -9,21 +9,21 @@ _dis = 200; // Area around the marker, in Meters.
 //UAV Terminal
 
 _uavAllowed = [
-//The slots that can use the Terminal
-"B_Officer_F",
-"B_recon_TL_F",
-"B_sniper_F",
-"B_spotter_F",
-"B_Pilot_F",
-"B_Fighter_Pilot_F",
-"B_Helipilot_F",
-"B_Patrol_Soldier_TL_F",
-"B_crew_F"
+	//The slots that can use the Terminal
+	"B_Officer_F",
+	"B_recon_TL_F",
+	"B_sniper_F",
+	"B_spotter_F",
+	"B_Pilot_F",
+	"B_Fighter_Pilot_F",
+	"B_Helipilot_F",
+	"B_Patrol_Soldier_TL_F",
+	"B_crew_F"
 ];
 
 _restrictedUav = [
-// The Terminal
-"B_UavTerminal"
+	// The Terminal
+	"B_UavTerminal"
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////
