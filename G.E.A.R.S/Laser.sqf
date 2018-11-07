@@ -14,6 +14,7 @@ _DesignatorsAllowed = [
 	"B_Survivor_F",
 	"B_Soldier_TL_F",
 	"B_Patrol_Soldier_TL_F",
+	"B_crew_F",
 	"B_Soldier_SL_F",
 	"B_diver_TL_F",
 	"B_spotter_F",
