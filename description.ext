@@ -2,7 +2,7 @@
 //== Mission Details
 onLoadName = "AM2 Mission Template";  //Name of the mission shown in the loading screen.
 onLoadMission = "Mission Makers Template";  //Description of the mission shown in the loading screen.
-author = "Indianawinny";  //Author of the mission.
+author = "Mercers";  //Author of the mission.
 loadScreen = "logo_MC.paa";  //Path to image which will be displayed displayed in the loading screen. Has to be a .paa or a .jpg file. 2:1 aspect ratio, ideally 1024x512.
 overviewText = "Mission Makers Template";  //Text to be displayed below the overviewPicture on the mission selection screen.
 overviewPicture = "logo_MC.paa";  //Path to image which will be displayed when the mission is highlighted on the mission selection screen. Has to be a .paa or a .jpg file. 2:1 aspect ratio, ideally 1024x512.
