@@ -29,8 +29,19 @@ player setUnitRecoilCoefficient 1.5;
 // Stop bullets and nades at base. If the base is under attack at the beginning, remove this section.
 [] execVM "Scripts\NoBaseNades.sqf";
 
+// Stop bullets and nades at base. If the base is under attack at the beginning, remove this section.
+[] execVM "Scripts\admin_or_zeus_actions.sqf";
+
 // Removes suppressors. If it's a stealth mission, remove this section.
 [] execVM "G.E.A.R.S\Supressors.sqf";
 
 // Executes Equipment Restriction Script.
-[] execVM "G.E.A.R.S\init.sqf";
+[player] execVM "G.E.A.R.S\init.sqf";
+
+
+
+
+["Fire Support", "Direct Cruise-Missile", { [_this select 1, _this select 0, getMarkerPos "MisileStart", "ammo_Missile_Cruise_01", 500] execVM "Scripts\guidedMissile_direct.sqf" }] call Ares_fnc_RegisterCustomModule;
+["Fire Support", "Laser Cruise-Missile", { [_this select 1, _this select 0, getMarkerPos "MisileStart", "ammo_Missile_Cruise_01", 500] execVM "Scripts\guidedMissile_laser.sqf" }] call Ares_fnc_RegisterCustomModule;
+["Fire Support", "Direct Missile", { [_this select 1, _this select 0, getMarkerPos "MisileStart", "M_Scalpel_AT", 500] execVM "Scripts\guidedMissile_direct.sqf" }] call Ares_fnc_RegisterCustomModule;
+["Fire Support", "Laser Missile", { [_this select 1, _this select 0, getMarkerPos "MisileStart", "M_Scalpel_AT", 500] execVM "Scripts\guidedMissile_laser.sqf" }] call Ares_fnc_RegisterCustomModule;

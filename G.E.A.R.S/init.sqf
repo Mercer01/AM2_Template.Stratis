@@ -3,15 +3,16 @@
 
 //This file executs all the scripts in G.E.A.R.S (Except supressors), if any new ones are added they need to be put in here and vice versa.
 //This needs to be executed in the init.sqf in the main mission folder ([] execVM "G.E.A.R.S\init.sqf";)
+_player = _this select 0;
+_uid = getPlayerUID _player;
+
+if(_uid == "76561198048384891") then {exitWith {};};
+
 [] execVM "G.E.A.R.S\MG.sqf";
-sleep 1;
-[] execVM "G.E.A.R.S\AT.sqf";
 sleep 1;
 [] execVM "G.E.A.R.S\DMR.sqf";
 sleep 1;
 [] execVM "G.E.A.R.S\Laser.sqf";
-sleep 1;
-[] execVM "G.E.A.R.S\OneUse.sqf";
 sleep 1;
 [] execVM "G.E.A.R.S\Radio.sqf";
 sleep 1;

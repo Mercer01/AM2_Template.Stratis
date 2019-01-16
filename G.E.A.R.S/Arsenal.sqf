@@ -20,6 +20,7 @@ if (isServer) then {
 		//Vanilla
 		"7Rnd_408_Mag",
 		"1Rnd_HE_Grenade_shell",
+		"50Rnd_570x28_SMG_03",
 		"30Rnd_65x39_caseless_mag",
 		"20Rnd_762x51_Mag",
 		"16Rnd_9x21_Mag",
@@ -310,11 +311,14 @@ if (isServer) then {
 		"MMG_02_camo_F",
 		"MMG_02_sand_F",
 		"hgun_PDW2000_F",
-		"SMG_05_F",
-		"SMG_02_F",
 		"SMG_01_F",
 		"arifle_SDAR_F",
 		"srifle_GM6_F",
+		"SMG_03_TR_black",
+		"SMG_03C_TR_black",
+		"SMG_03_TR_khaki",
+		"SMG_03C_TR_khaki",
+
 		
 		//2nd Batt
 		"arifle_TRG20_blk_F",
@@ -611,7 +615,7 @@ if (isServer) then {
 		"rhsusf_hgu56p_visor_green",
 		"rhsusf_hgu56p_visor_mask_green",
 		"rhsusf_hgu56p_visor_mask_green_mo",
-		"rhsusf_ihadss", //Special for Apachie
+		"rhsusf_ihadss", //Special for Apache
 		
         // FACEWEAR
 		"VSM_balaclava_Black_Skull",
@@ -738,9 +742,6 @@ if (isServer) then {
 		"NVGoggles_INDEP",
 		"ACE_NVG_Gen4",
 		"ACE_NVG_Wide",
-		"NVGogglesB_blk_F",
-		"NVGogglesB_grn_F",
-		"NVGogglesB_gry_F",
 		"rhsusf_ANPVS_14",
 		"rhsusf_ANPVS_15",
 

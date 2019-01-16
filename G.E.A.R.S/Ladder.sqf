@@ -9,12 +9,12 @@ _dis = 200; // Area around the marker, in Meters.
 //Telescopic Ladder
 
 _ladderAllowed = [
-//The slots that can use the radios
-"B_Officer_F",
-"B_Pilot_F",
-"B_recon_TL_F",
-"B_sniper_F",
-"B_spotter_F"
+	//The slots that can use the radios
+	"B_Officer_F",
+	"B_Pilot_F",
+	"B_recon_TL_F",
+	"B_sniper_F",
+	"B_spotter_F"
 ];
 
 _ladderRestricted = [
