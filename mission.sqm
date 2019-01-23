@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1882;
+		nextID=1883;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1790.9735,22.83489,5737.2734};
-		dir[]={0.12417501,-0.7685129,0.62787491};
-		up[]={0.14911653,0.63973105,0.75400186};
-		aside[]={0.98112637,-4.1551539e-007,-0.1940418};
+		pos[]={1809.2576,32.596279,5710.1201};
+		dir[]={-0.099057265,-0.67473221,0.73156375};
+		up[]={-0.090556823,0.73794913,0.66876173};
+		aside[]={0.99108678,-8.540228e-007,0.13419428};
 	};
 };
 binarizationWanted=0;
@@ -36,7 +36,6 @@ addons[]=
 	"A3_Characters_F",
 	"A3_Weapons_F",
 	"task_force_radio_items",
-	"2nd_Battalion",
 	"ace_gforces",
 	"ace_parachute",
 	"A3_Data_F_Curator_Virtual",
@@ -54,7 +53,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=21;
+		items=20;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -127,74 +126,68 @@ class AddonsMetaData
 		};
 		class Item10
 		{
-			className="2nd_Battalion";
-			name="2nd_Battalion";
-			author="Indianawinny";
-		};
-		class Item11
-		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item12
+		class Item11
 		{
 			className="A3_Data_F_Curator";
 			name="Arma 3 Zeus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item12
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item14
+		class Item13
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item15
+		class Item14
 		{
 			className="A3_Structures_F_Orange";
 			name="Arma 3 Orange - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item15
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item16
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item17
 		{
 			className="A3_Modules_F_Heli";
 			name="Arma 3 Helicopters - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item18
 		{
 			className="A3_Characters_F_Patrol";
 			name="Arma 3 Patrol - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item19
 		{
 			className="ace_vector";
 			name="ACE3 - Vector";
@@ -445,7 +438,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=49;
+		items=50;
 		class Item0
 		{
 			dataType="Marker";
@@ -8331,6 +8324,124 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item49
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1798.578,6.3924227,5741.3862};
+				angles[]={0,4.965322,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{0 = [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+				name="Arsenal_7";
+				disableSimulation=1;
+			};
+			id=1882;
+			type="B_supplyCrate_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_cookoff_enable";
+					expression="if !(_value) then {_this setVariable ['ace_cookoff_enable', _value, true];};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ace_cargo_size";
+					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-1;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 	};

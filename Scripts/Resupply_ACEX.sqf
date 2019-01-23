@@ -48,7 +48,7 @@ Resupply_fnc_add_money = {
 	_current_credits = ["west"] call acex_fortify_fnc_getBudget;
 	
 	if (_current_credits == -1) then {
-		_current_credits = 0;
+		_current_credits = 2000;
 	};
 
 	//hint format["value:%1 current total %2",_value, _current_credits];

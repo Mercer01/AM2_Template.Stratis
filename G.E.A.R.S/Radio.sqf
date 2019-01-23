@@ -33,7 +33,13 @@ _backpacksRestricted = [
 	"OPXT_multicamb_1523",
 	"OPXT_surpat_1523",
 	"OPXT_goao_1523_S",
-	"OPXT_goa_1523_S"
+	"OPXT_goa_1523_S",
+	"UK3CB_BAF_B_Bergen_DPMW_JTAC_A",
+	"UK3CB_BAF_B_Bergen_DPMW_JTAC_H_A",
+	"UK3CB_BAF_B_Bergen_DPMW_SL_A",
+	"UK3CB_BAF_B_Bergen_MTP_SL_A",
+	"UK3CB_BAF_B_Bergen_MTP_JTAC_A",
+	"UK3CB_BAF_B_Bergen_MTP_JTAC_H_A"
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////
@@ -43,7 +49,7 @@ while {true} do {
 			if((_backpacksRestricted find (backpack player)) >= 0) then {
 				removeBackpack player;
 				player addBackpack "MC_Backpack_Kitbag"; //Backpack it is gonna get replaced with
-				titleText ["Please hand that to someone who will find it more useful.", "PLAIN", 3]; // The comment it tells the player
+				titleText ["Uhhhhhhhhhhh right then, seems you dont know how to use a LR radio", "PLAIN", 3]; // The comment it tells the player
 				titleFadeOut 1; 
 			};
 		};

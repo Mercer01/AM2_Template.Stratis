@@ -66,6 +66,11 @@ if (isServer) then {
 		"10Rnd_9x21_Mag",
 		"MRAWS_HEAT_F",
 		"MRAWS_HEAT_F",
+		"RPG32_F",
+		"RPG32_HE_F",
+		"ACE_200Rnd_65x39_cased_Box_Tracer_Dim",
+		"200Rnd_65x39_cased_Box_Tracer",
+		"200Rnd_65x39_cased_Box",
 		
 		//ACE3
 		"ACE_HuntIR_M203",
@@ -307,6 +312,7 @@ if (isServer) then {
 		"arifle_TRG21_F",
 		"arifle_TRG21_GL_F",
 		"LMG_03_F",
+		"LMG_Mk200_F",
 		"MMG_02_black_F",
 		"MMG_02_camo_F",
 		"MMG_02_sand_F",
@@ -457,6 +463,8 @@ if (isServer) then {
 		"launch_O_Titan_short_F",
 		"launch_B_Titan_short_F",
 		"launch_B_Titan_short_tna_F",
+		"launch_RPG32_green_F",
+		"launch_RPG32_tan_F",
 		"rhs_weap_fim92",
 		"UK3CB_BAF_M6",
 		"UK3CB_BAF_L111A1",
@@ -499,6 +507,7 @@ if (isServer) then {
 		"ACE_Vector",
 		"ACE_MX2A",
 		"rhsusf_lrf_Vector21",
+		"UK3CB_BAF_Soflam_Laserdesignator",
 		
 		// OTHER
 		"ACE_VMH3",
@@ -530,16 +539,85 @@ if (isServer) then {
 		"AM2_M81_Uniform_Crye_GS",
 		"AM2_M81_Uniform_Crye_GS_SS",
 		"AM2_M81_Uniform_Pilot",
-		"AM2_M81_Uniform_Ghillie",
-		"AM2_M81_Uniform_Ghillie_Crye",
+		// "AM2_M81_Uniform_Ghillie",
+		// "AM2_M81_Uniform_Ghillie_Crye",
 		//Other
 		"U_B_Wetsuit",
 		"U_B_PilotCoveralls",
-		"U_B_FullGhillie_ard", 
-		"U_B_T_FullGhillie_tna_F", 
-		"U_B_FullGhillie_lsh", 
-		"U_B_FullGhillie_sard",
+		// "U_B_FullGhillie_ard", 
+		// "U_B_T_FullGhillie_tna_F", 
+		// "U_B_FullGhillie_lsh", 
+		// "U_B_FullGhillie_sard",
 		
+
+		//BAF UNIFORMS
+		"UK3CB_BAF_U_CombatUniform_DPMW",
+		"UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve",
+		"UK3CB_BAF_U_CombatUniform_DPMW_Ghillie_RM",
+		"UK3CB_BAF_U_CombatUniform_MTP",
+		"UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve",
+		"UK3CB_BAF_U_CombatUniform_MTP_Ghillie_RM",
+
+		"UK3CB_BAF_U_Smock_DPMW_OLI",
+		"UK3CB_BAF_U_Smock_DPMW",
+		"UK3CB_BAF_U_Smock_MTP",
+
+		//Pilot
+		// "UK3CB_BAF_U_HeliPilotCoveralls_RAF",
+
+		//VESTS BAF
+		"UK3CB_BAF_V_HiVis",
+		"UK3CB_BAF_V_Osprey_DPMW2",
+		"UK3CB_BAF_V_Osprey_DPMW3",
+		"UK3CB_BAF_V_Osprey_DPMW4",
+		"UK3CB_BAF_V_Osprey_DPMW5",
+		"UK3CB_BAF_V_Osprey_DPMW6",
+		"UK3CB_BAF_V_Osprey_DPMW7",
+		"UK3CB_BAF_V_Osprey_DPMW8",
+		"UK3CB_BAF_V_Osprey_DPMW9",
+
+		//VESTS MTP
+		"UK3CB_BAF_V_Osprey_Grenadier_A",
+		"UK3CB_BAF_V_Osprey_Grenadier_B",
+		"UK3CB_BAF_V_Osprey_Holster",
+		"UK3CB_BAF_V_Osprey_Marksman_A",
+		"UK3CB_BAF_V_Osprey_Medic_A",
+		"UK3CB_BAF_V_Osprey_Medic_B",
+		"UK3CB_BAF_V_Osprey_Medic_C",
+		"UK3CB_BAF_V_Osprey_MG_B",
+		"UK3CB_BAF_V_Osprey_Rifleman_B", 
+		"UK3CB_BAF_V_Osprey_Rifleman_C", 
+		"UK3CB_BAF_V_Osprey_Rifleman_D", 
+		"UK3CB_BAF_V_Osprey_Rifleman_E", 
+		"UK3CB_BAF_V_Osprey_Rifleman_F",
+		"UK3CB_BAF_V_Osprey_SL_A",
+		"UK3CB_BAF_V_Osprey_SL_B",
+		"UK3CB_BAF_V_Osprey_SL_C",
+		"UK3CB_BAF_V_Osprey_SL_D",
+
+		//Helments
+		"UK3CB_BAF_H_Mk7_Camo_CESS_B",
+		"UK3CB_BAF_H_Mk7_Camo_ESS_A",
+		"UK3CB_BAF_H_Mk7_Camo_ESS_D",
+		"UK3CB_BAF_H_Mk7_Net_ESS_D",
+		"UK3CB_BAF_H_CrewHelmet_ESS_A",
+		"UK3CB_BAF_H_Mk6_DPMW_A",
+		"UK3CB_BAF_H_Mk6_DPMW_C",
+		"UK3CB_BAF_H_Mk6_DPMW_F",
+		"UK3CB_BAF_H_CrewHelmet_DPMW_ESS_A",
+		"UK3CB_BAF_H_Mk7_HiVis",
+		//Beret
+		"UK3CB_BAF_H_Beret_SBS_PRR",
+		"UK3CB_BAF_H_Beret_SAS_PRR",
+		"UK3CB_BAF_H_Beret_RTR_PRR",
+		"UK3CB_BAF_H_Beret_Signals_PRR",
+		"UK3CB_BAF_H_Beret_RM_Recruit_PRR",
+		"UK3CB_BAF_H_Beret_RM_Officer_PRR",
+		"UK3CB_BAF_H_Beret_REng_PRR",
+		"UK3CB_BAF_H_Beret_Rifles_PRR",
+		"UK3CB_BAF_H_Beret_AAC_PRR",
+
+		"VSM_Peltor_OD",
 
         // VESTS
 		//Multicam
@@ -587,13 +665,13 @@ if (isServer) then {
 		"AM2_M81_Cap",
 		"AM2_M81_Boonie",
 		//Crew
-		"rhsusf_cvc_green_alt_helmet",
-		"rhsusf_cvc_green_ess",
-		"rhsusf_cvc_alt_helmet",
-		"rhsusf_cvc_ess",
+		// "rhsusf_cvc_green_alt_helmet",
+		// "rhsusf_cvc_green_ess",
+		// "rhsusf_cvc_alt_helmet",
+		// "rhsusf_cvc_ess",
 		
 		//Hats
-		"H_Beret_02",
+		// "H_Beret_02",
 		//Pilot
 		"H_PilotHelmetFighter_B",
 		"H_PilotHelmetHeli_B",
@@ -732,6 +810,11 @@ if (isServer) then {
 		"rhsusf_oakley_goggles_blk",
 		"rhsusf_oakley_goggles_clr",
 		"rhsusf_oakley_goggles_ylw",
+		"UK3CB_BAF_G_Tactical_Black",
+		"UK3CB_BAF_G_Tactical_Clear",
+		"UK3CB_BAF_G_Tactical_Grey",
+		"UK3CB_BAF_G_Tactical_Orange",
+		"UK3CB_BAF_G_Tactical_Yellow",
 
         // NIGHT VISION
 		"NVGoggles_tna_F",
@@ -1207,14 +1290,13 @@ if (isServer) then {
 		"B_Carryall_blk",
 		"B_LegStrapBag_olive_F",
 		"B_LegStrapBag_coyote_F",
-		"B_FieldPack_cbr",
-		"B_FieldPack_khk",
 
         // RADIO
 		"AM2_MC_LRR",
 		"AM2_Tan_LRR",
 		"AM2_M81_LRR",
 		"AM2_Green_LRR",
+		"tf_rt1523g_black",
 		
 		// UAVs
 		"B_UAV_06_medical_backpack_F",
@@ -1226,7 +1308,33 @@ if (isServer) then {
 		"B_HMG_01_support_F",
 		
 		//Other
-		"ACE_TacticalLadder_Pack"
+		"ACE_TacticalLadder_Pack",
+
+		//BAF 
+		"UK3CB_BAF_B_Bergen_DPMW_JTAC_A",
+		"UK3CB_BAF_B_Bergen_DPMW_JTAC_H_A",
+		"UK3CB_BAF_B_Bergen_DPMW_Rifleman_A",
+		"UK3CB_BAF_B_Bergen_DPMW_Rifleman_B",
+		"UK3CB_BAF_B_Bergen_DPMW_SL_A",
+
+
+		"UK3CB_BAF_B_Bergen_MTP_PointMan_H_A",
+		"UK3CB_BAF_B_Bergen_MTP_PointMan_L_A",
+		"UK3CB_BAF_B_Bergen_MTP_Radio_H_A",
+		"UK3CB_BAF_B_Bergen_MTP_Radio_H_B",
+		"UK3CB_BAF_B_Bergen_MTP_Rifleman_H_B",
+		"UK3CB_BAF_B_Bergen_MTP_JTAC_A",
+		"UK3CB_BAF_B_Bergen_MTP_JTAC_H_A",
+		"UK3CB_BAF_B_Bergen_MTP_Rifleman_A",
+		"UK3CB_BAF_B_Bergen_MTP_Rifleman_B",
+		"UK3CB_BAF_B_Bergen_MTP_SL_A",
+
+		"UK3CB_BAF_B_Bergen_MTP_Engineer_L_A",
+		"UK3CB_BAF_B_Bergen_MTP_Medic_H_A",
+		"UK3CB_BAF_B_Bergen_MTP_Medic_H_B",
+		"UK3CB_BAF_B_Bergen_MTP_Medic_L_A",
+		"UK3CB_BAF_B_Bergen_MTP_Medic_L_B"
+
 	];
 	
 	[_box, _itemsWhitelist, true, false] call BIS_fnc_addVirtualItemCargo;       
