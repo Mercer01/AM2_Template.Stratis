@@ -21,7 +21,8 @@ _DesignatorsAllowed = [
 	"B_recon_TL_F",
 	"B_Pilot_F",
 	"B_Fighter_Pilot_F",
-	"B_Helipilot_F"
+	"B_Helipilot_F",
+	"B_soldier_UAV_F"
 ];
 
 _restrictedDesignators = [
@@ -31,7 +32,9 @@ _restrictedDesignators = [
 	"Laserdesignator_01_khk_F",
 	"Laserdesignator_03",
 	"Laserdesignator",
-	"Laserdesignator_02_ghex_F"
+	"Laserdesignator_02_ghex_F",
+	"UK3CB_BAF_Soflam_Laserdesignator"
+	
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////

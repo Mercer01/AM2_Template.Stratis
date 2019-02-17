@@ -9,11 +9,11 @@ _dis = 200; // Area around the marker, in Meters.
 //AA Static backpack
 
 _backpacksAllowed = [
-//The slots that can use the statics
-"B_Officer_F",
-"B_Pilot_F",
-"B_Fighter_Pilot_F",
-"B_Helipilot_F"
+	//The slots that can use the statics
+	"B_Officer_F",
+	"B_Pilot_F",
+	"B_Fighter_Pilot_F",
+	"B_Helipilot_F"
 ];
 
 _backpacksRestricted = [

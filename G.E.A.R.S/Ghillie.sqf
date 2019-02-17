@@ -13,7 +13,8 @@ _uniformAllowed = [ 	//The slots that can use the uniforms
 	"B_recon_TL_F",
 	"B_spotter_F",
 	"B_sniper_F",
-	"B_Pilot_F"
+	"B_Pilot_F",
+	"B_soldier_UAV_F"
 ];
 
 _uniformRestricted = [

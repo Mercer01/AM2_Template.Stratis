@@ -14,6 +14,7 @@ _uavAllowed = [
 	"B_recon_TL_F",
 	"B_sniper_F",
 	"B_spotter_F",
+	"B_soldier_UAV_F",
 	"B_Pilot_F",
 	"B_Fighter_Pilot_F",
 	"B_Helipilot_F",

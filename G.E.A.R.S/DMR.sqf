@@ -16,6 +16,7 @@ _snipers = [ 	//The slots that can use the weapons
 	"B_sniper_F",
 	"B_spotter_F",
 	"B_recon_TL_F",
+	"B_soldier_UAV_F",
 	"B_ghillie_ard_F",
 	"B_ghillie_lsh_F",
 	"B_ghillie_sard_F",

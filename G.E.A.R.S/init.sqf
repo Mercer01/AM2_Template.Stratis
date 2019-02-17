@@ -6,7 +6,7 @@
 _player = _this select 0;
 _uid = getPlayerUID _player;
 
-if(_uid == "76561198048384891") exitWith {};
+// if(_uid == "76561198048384891") exitWith {};
 
 [] execVM "G.E.A.R.S\MG.sqf";
 sleep 1;

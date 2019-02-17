@@ -21,7 +21,9 @@ _backpacksAllowed = [
 	"B_Fighter_Pilot_F",
 	"B_Helipilot_F",
 	"B_crew_F",
-	"B_spotter_F"
+	"B_spotter_F",
+	"B_soldier_UAV_F"
+
 ];
 
 _backpacksRestricted = [

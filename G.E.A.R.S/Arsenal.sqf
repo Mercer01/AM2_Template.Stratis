@@ -1317,7 +1317,8 @@ if (isServer) then {
 		"UK3CB_BAF_B_Bergen_DPMW_Rifleman_B",
 		"UK3CB_BAF_B_Bergen_DPMW_SL_A",
 
-
+		"UK3CB_BAF_B_Carryall_DPMW",
+		"UK3CB_BAF_B_Carryall_MTP",
 		"UK3CB_BAF_B_Bergen_MTP_PointMan_H_A",
 		"UK3CB_BAF_B_Bergen_MTP_PointMan_L_A",
 		"UK3CB_BAF_B_Bergen_MTP_Radio_H_A",

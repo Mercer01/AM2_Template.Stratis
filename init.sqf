@@ -38,7 +38,8 @@ player setUnitRecoilCoefficient 1.5;
 // Executes Equipment Restriction Script.
 [player] execVM "G.E.A.R.S\init.sqf";
 
-
+//Remove this line for custom uniform
+player addUniform "UK3CB_BAF_U_CombatUniform_MTP";
 
 
 ["Fire Support", "Direct Cruise-Missile", { [_this select 1, _this select 0, getMarkerPos "MisileStart", "ammo_Missile_Cruise_01", 500] execVM "Scripts\guidedMissile_direct.sqf" }] call Ares_fnc_RegisterCustomModule;

@@ -17,6 +17,7 @@ _ItemsAllowed = [ 	//The slots that can use the tablet
 	"B_Soldier_SL_F",
 	"B_diver_TL_F",
 	"B_recon_TL_F",
+	"B_soldier_UAV_F",
 	"B_Pilot_F",
 	"B_Fighter_Pilot_F",
 	"B_Helipilot_F",

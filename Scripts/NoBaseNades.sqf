@@ -1,9 +1,12 @@
 //////////////////////////"Stop blowing up the briefing" Script///////////////////////////////
 ////////////////////////////////////By Indianawinny///////////////////////////////////////////
-
 if (isDedicated) exitWith {};
 waitUntil {!isNull player};
 waitUntil {time > 0};
+
+_uid = getPlayerUID player;
+if(_uid == "76561198048384891") exitWith {};
+
 
 private ["_eh1","_inSafeZone","_safeZone","_dis", "_playerSide", "_spawnpos", "_list"];
 _inSafeZone = true;

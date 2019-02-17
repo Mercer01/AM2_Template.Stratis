@@ -13,7 +13,8 @@ _toolAllowed = [
 	"B_Officer_F",
 	"B_Patrol_Soldier_TL_F",
 	"B_crew_F",
-	"B_Pilot_F"
+	"B_Pilot_F",
+	"B_soldier_UAV_F"
 ];
 
 _restrictedTool = [
