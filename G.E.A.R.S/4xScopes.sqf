@@ -1,5 +1,7 @@
 ///////////////////Gear, Equipment and Arsenal Restriction Script v1.2/////////////////////
 /////////////////////////////////By Indianawinny///////////////////////////////////////////
+// All scopes greater than or equal to 4x that are restricted for some reason or another
+
 
 private ["_safeZone","_dis","_4xAllowed","_restrictedOptics"];
  
@@ -8,7 +10,8 @@ _dis = 200; // Area around the marker, in Meters.
 
 //Scopes
 
-_4xAllowed = [ //The slots that can use the scopes
+_4xAllowed = [
+	//The slots that can use the scopes
 	"B_Officer_F",
 	"B_soldier_M_F",
 	"B_Patrol_soldier_M_F",
@@ -28,18 +31,6 @@ _4xAllowed = [ //The slots that can use the scopes
 
 _restrictedOptics = [
 	// The Scopes
-	"optic_Arco",
-	"optic_Arco_blk_F",
-	"optic_Arco_ghex_F",
-	"optic_ERCO_blk_F",
-	"optic_ERCO_khk_F",
-	"optic_ERCO_snd_F",
-	"optic_Hamr",
-	"optic_Hamr_khk_F",
-	"optic_MRCO",
-	"ACE_optic_MRCO_2D",
-	"ACE_optic_Hamr_2D",
-	"ACE_optic_Hamr_PIP",
 	"ACE_optic_Arco_PIP",
 	"ACE_optic_Arco_2D",
 	"RKSL_optic_LDS",
@@ -96,9 +87,16 @@ _restrictedOptics = [
 	"rhsusf_acc_SpecterDR_OD",
 	"rhsusf_acc_SpecterDR_D",
 	"rhsusf_acc_SpecterDR_A",
-	"rhsusf_acc_g33_T1",
-	"rhsusf_acc_g33_xps3_tan",
-	"rhsusf_acc_g33_xps3"
+
+	// RHS part 2
+	"rhsusf_acc_su230a_mrds_c",
+	"rhsusf_acc_su230a_mrds",
+	"rhsusf_acc_su230a_c",
+	"rhsusf_acc_su230a",
+	"rhsusf_acc_su230_mrds_c",
+	"rhsusf_acc_su230_mrds",
+	"rhsusf_acc_su230_c",
+	"rhsusf_acc_su230"
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////

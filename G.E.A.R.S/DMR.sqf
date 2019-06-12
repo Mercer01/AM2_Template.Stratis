@@ -75,12 +75,14 @@ _sniperSpecialised = [// The Weapons
 	"rhs_weap_svdp_wd_npz",
 	"rhs_weap_svds",
 	"rhs_weap_svds_npz",
-	"SMA_HK417_16in",
-	"SMA_Mk17_16",
-	"SMA_Mk17_16_black",
-	"SMA_Mk17_16_Green",
 	"srifle_EBR_grey_F",
-	"srifle_DMR_06_blk_F"
+	"srifle_DMR_06_blk_F",
+	"hlc_rifle_awmagnum",
+	"hlc_rifle_awmagnum_BL",
+	"hlc_rifle_awmagnum_FDE",
+	"hlc_rifle_awcovert",
+	"hlc_rifle_awcovert_BL",
+	"hlc_rifle_awcovert_FDE"
 ];
 
 _ammo = [ 	// The ammo for those weapons
@@ -112,7 +114,12 @@ _ammo = [ 	// The ammo for those weapons
 	"rhsusf_mag_10Rnd_STD_50BMG_M33",
 	"rhsusf_mag_10Rnd_STD_50BMG_mk211",
 	"rhs_5Rnd_338lapua_t5000",
-	"rhs_10Rnd_762x54mmR_7N1"
+	"rhs_10Rnd_762x54mmR_7N1",
+	"hlc_5rnd_300WM_mk248_AWM",
+	"hlc_5rnd_300WM_BTSP_AWM",
+	"hlc_5rnd_300WM_AP_AWM",
+	"hlc_5rnd_300WM_SBT_AWM",
+	"hlc_5rnd_300WM_T_AWM"
 ];
 
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////

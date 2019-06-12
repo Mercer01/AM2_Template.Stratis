@@ -94,6 +94,13 @@ _specialisedMuzzle = [
 "rhsusf_acc_omega9k"
 ];
 
+
+_specialisedRifle = [ 
+"hlc_rifle_awcovert",
+"hlc_rifle_awcovert_BL",
+"hlc_rifle_awcovert_FDE"
+];
+
 //////////////////////////////////DO NOT MODIFY BELOW////////////////////////////////////////////
 while {true} do {
 	while {_safeZone distance player < _dis} do {
@@ -125,6 +132,14 @@ while {true} do {
 		if (({_x in (uniformItems player)} count _specialisedMuzzle) > 0) then {
 			if (({player isKindOf _x} count _muzzleAllowed) < 1) then {
 				{player removeItem _x;} count _specialisedMuzzle;
+				titleText ["This is not a sneaky beaky mission!", "PLAIN", 3]; titleFadeOut 1; // The comment it tells the player
+			};
+		};
+		if (({_x in (weapons player)} count _specialisedRifle) > 0) then {
+			if (({player isKindOf _x} count _muzzleAllowed) < 1) then {
+				{player removeWeapon _x;} count _specialisedRifle;
+				player addWeapon "rhs_weap_m4_carryhandle"; //Weapon it is gonna get replaced with
+				player addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag"; //Mag for that weapon
 				titleText ["This is not a sneaky beaky mission!", "PLAIN", 3]; titleFadeOut 1; // The comment it tells the player
 			};
 		};

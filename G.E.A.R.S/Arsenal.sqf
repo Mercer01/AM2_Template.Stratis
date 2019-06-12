@@ -6,7 +6,7 @@
 // This is the list of the items in the arsnenal.
 // Comments can be used for items that we might use in the future or for an occasion Example: Events - Winter
 // Each of the different item classes is marked with comments.
-// TFAR Radios: Each player gets a new number assigned to their radio, this can cause issues becasue the item class changes. This is why there is 60+ radios in the list.
+// TFARAR Radios: Each player gets a new number assigned to their radio, this can cause issues becasue the item class changes. This is why there is 60+ radios in the list.
 // When items that we use are removed from the modpack remove them from this list too or it will throw internal errors.
 
 _box = [_this, 0, objNull, [objNull]] call BIS_fnc_param;
@@ -191,9 +191,12 @@ if (isServer) then {
 		"rhs_m72a7_mag",
 		"rhs_mag_smaw_SR",
 		"LOP_10rnd_77mm_mag",
+
+		"hlc_30rnd_68x43_FMJ",
+		"hlc_30rnd_68x43_Tracer",
 		
 		//UK3CB
-		"UK3CB_BAF_1Rnd_60mm_Mo_Shells",
+		/*"UK3CB_BAF_1Rnd_60mm_Mo_Shells",
 		"UK3CB_BAF_1Rnd_60mm_Mo_Flare_White",
 		"UK3CB_BAF_1Rnd_60mm_Mo_Smoke_White",
 		"UK3CB_BAF_127_100Rnd",
@@ -208,7 +211,14 @@ if (isServer) then {
 		"UK3CB_BAF_1Rnd_81mm_Mo_Shells",
 		"UK3CB_BAF_1Rnd_81mm_Mo_IRFlare_White",
 		"UK3CB_BAF_1Rnd_81mm_Mo_Flare_White",
-		"UK3CB_BAF_1Rnd_81mm_Mo_Smoke_White",
+		"UK3CB_BAF_1Rnd_81mm_Mo_Smoke_White",*/
+		
+		//NI arms
+		"hlc_5rnd_300WM_mk248_AWM",
+		"hlc_5rnd_300WM_BTSP_AWM",
+		"hlc_5rnd_300WM_AP_AWM",
+		"hlc_5rnd_300WM_SBT_AWM",
+		"hlc_5rnd_300WM_T_AWM",
 		
 		// GRANADES
 		"HandGrenade",
@@ -250,6 +260,7 @@ if (isServer) then {
 		"APERSTripMine_Wire_Mag",
 		"ACE_M14",
 		"APERSMineDispenser_Mag",
+		
 		
 		//OTHER
 		"ACE_SpareBarrel"
@@ -440,6 +451,54 @@ if (isServer) then {
 		"rhs_weap_vhsd2_ct15x",
 		"rhs_weap_vhsd2",
 		
+		//NI ARMS AND SMA
+		"SMA_Mk17",
+		"SMA_Mk17_Black",
+		"SMA_Mk17_Green",
+		"SMA_Mk17_EGLM",
+		"SMA_Mk17_EGLM_Black",
+		"SMA_Mk17_EGLM_Green",
+		"SMA_MK16",
+		"SMA_Mk16_Black",
+		"SMA_Mk16_Green",
+		"SMA_Mk16_EGLM",
+		"SMA_Mk16_EGLM_Black",
+		"SMA_Mk16_EGLM_Green",
+		"SMA_MK16QCB",
+		"SMA_Mk16_BlackQCB",
+		"SMA_Mk16_GreenQCB",
+		"hlc_rifle_G36V",
+		"hlc_rifle_G36KV",
+		"hlc_rifle_G36VAG36",
+		"hlc_rifle_G36CV",
+		"hlc_rifle_auga2",
+		"hlc_rifle_auga2_b",
+		"hlc_rifle_auga2_t",
+		"hlc_rifle_auga3",
+		"hlc_rifle_auga3_b",
+		"hlc_rifle_auga3_GL",
+		"hlc_rifle_auga3_b",
+		"hlc_rifle_auga3_GL_B",
+		"hlc_rifle_awmagnum",
+		"hlc_rifle_awmagnum_BL",
+		"hlc_rifle_awmagnum_FDE",
+		"hlc_rifle_awcovert",
+		"hlc_rifle_awcovert_BL",
+		"hlc_rifle_awcovert_FDE",
+
+		//Remington ACR-E
+		"hlc_rifle_ACR_Carb_black",
+		"hlc_rifle_ACR_SBR_black",
+		"hlc_rifle_ACR_GL_Carb_black",
+		"hlc_rifle_ACR_GL_SBR_black",
+
+		"hlc_rifle_ACR68_Carb_black",
+		"hlc_rifle_ACR68_SBR_black",
+		"hlc_rifle_ACR68_GL_Carb_black",
+		"hlc_rifle_ACR68_GL_SBR_black",
+
+
+
 
         // LAUNCHERS
 		"rhs_weap_M136",
@@ -466,12 +525,12 @@ if (isServer) then {
 		"launch_RPG32_green_F",
 		"launch_RPG32_tan_F",
 		"rhs_weap_fim92",
-		"UK3CB_BAF_M6",
+		/*"UK3CB_BAF_M6",
 		"UK3CB_BAF_L111A1",
 		"UK3CB_BAF_L134A1",
 		"UK3CB_BAF_L16",
 		"UK3CB_BAF_L16_Tripod",
-		"UK3CB_BAF_Tripod",
+		"UK3CB_BAF_Tripod",*/
 		"rhs_weap_maaws",
 
         // HANDGUNS
@@ -508,6 +567,7 @@ if (isServer) then {
 		"ACE_MX2A",
 		"rhsusf_lrf_Vector21",
 		"UK3CB_BAF_Soflam_Laserdesignator",
+		"rhsusf_bino_leopold_mk4",
 		
 		// OTHER
 		"ACE_VMH3",
@@ -518,7 +578,7 @@ if (isServer) then {
 	_itemsWhitelist = [
         // UNIFORMS
 		//Multicam
-		"AM2_MC_Uniform",
+		/*"AM2_MC_Uniform",
 		"AM2_MC_Uniform_SS",
 		"AM2_MC_Uniform_TS",
 		"AM2_MC_Uniform_TS_SS",
@@ -538,16 +598,16 @@ if (isServer) then {
 		"AM2_M81_Uniform_Crye_SS",
 		"AM2_M81_Uniform_Crye_GS",
 		"AM2_M81_Uniform_Crye_GS_SS",
-		"AM2_M81_Uniform_Pilot",
+		"AM2_M81_Uniform_Pilot",*/
 		// "AM2_M81_Uniform_Ghillie",
 		// "AM2_M81_Uniform_Ghillie_Crye",
 		//Other
 		"U_B_Wetsuit",
 		"U_B_PilotCoveralls",
-		// "U_B_FullGhillie_ard", 
-		// "U_B_T_FullGhillie_tna_F", 
-		// "U_B_FullGhillie_lsh", 
-		// "U_B_FullGhillie_sard",
+		"U_B_FullGhillie_ard", 
+		"U_B_T_FullGhillie_tna_F", 
+		"U_B_FullGhillie_lsh", 
+		"U_B_FullGhillie_sard",
 		
 
 		//BAF UNIFORMS
@@ -616,12 +676,11 @@ if (isServer) then {
 		"UK3CB_BAF_H_Beret_REng_PRR",
 		"UK3CB_BAF_H_Beret_Rifles_PRR",
 		"UK3CB_BAF_H_Beret_AAC_PRR",
-
 		"VSM_Peltor_OD",
 
         // VESTS
 		//Multicam
-		"AM2_MC_PlateCarrier",
+		/*"AM2_MC_PlateCarrier",
 		"AM2_MC_PlateCarrier_Lite",
 		"AM2_MC_PlateCarrier_Tan",
 		"AM2_MC_PlateCarrier_Lite_Tan",
@@ -663,7 +722,7 @@ if (isServer) then {
 		"AM2_M81_Helmet_Lite",
 		"AM2_M81_Helmet_Camo",
 		"AM2_M81_Cap",
-		"AM2_M81_Boonie",
+		"AM2_M81_Boonie", */
 		//Crew
 		// "rhsusf_cvc_green_alt_helmet",
 		// "rhsusf_cvc_green_ess",
@@ -673,7 +732,7 @@ if (isServer) then {
 		//Hats
 		// "H_Beret_02",
 		//Pilot
-		"H_PilotHelmetFighter_B",
+		"H_PilotHelmetfighter_B",
 		"H_PilotHelmetHeli_B",
 		"rhsusf_hgu56p_black",
 		"rhsusf_hgu56p_mask_black",
@@ -925,6 +984,10 @@ if (isServer) then {
 		"ACE_muzzle_mzls_B",
 		"ACE_muzzle_mzls_smg_02",
 		"ACE_muzzle_mzls_93mmg",
+
+		"hlc_muzzle_556NATO_rotexiiic_grey",
+		"hlc_muzzle_556NATO_rotexiiic_tan",
+
 		"ACE_optic_Arco_2D",
 		"ACE_optic_Arco_PIP",
 		"ACE_acc_pointer_green",
@@ -987,6 +1050,7 @@ if (isServer) then {
 		"rhsusf_acc_anpvs27",
 		"rhsusf_acc_ARDEC_M240",
 		"rhs_bipod",
+		"HLC_bipod_UTGShooters",
 		"rhs_acc_ak5",
 		"rhs_acc_ekp1",
 		"rhsusf_acc_EOTECH",
@@ -1175,7 +1239,7 @@ if (isServer) then {
 		"ACE_Flashlight_XL50",
 		"ACE_MapTools",
 		"ACE_microDAGR",
-		"tf_microdagr",
+		"TFAR_microdagr",
 		"ACE_morphine",
 		"ACE_packingBandage",
 		"ACE_personalAidKit",
@@ -1201,6 +1265,7 @@ if (isServer) then {
 		"ACE_Flashlight_KSF1",
 		"ACE_Chemlight_Shield",
 		"ACE_Fortify",
+		"ACE_UAVBattery",
 	
 		// LINKED ITEMS
 		"ACE_Altimeter",
@@ -1213,67 +1278,69 @@ if (isServer) then {
 		"ItemMicroDAGR",
 		"ItemcTab",
 		"ACE_Altimeter",
-		"tf_anprc152",
-		"tf_anprc152_1",
-		"tf_anprc152_2",
-		"tf_anprc152_3",
-		"tf_anprc152_4",
-		"tf_anprc152_5",
-		"tf_anprc152_6",
-		"tf_anprc152_7",
-		"tf_anprc152_8",
-		"tf_anprc152_9",
-		"tf_anprc152_10",
-		"tf_anprc152_11",
-		"tf_anprc152_12",
-		"tf_anprc152_13",
-		"tf_anprc152_14",
-		"tf_anprc152_15",
-		"tf_anprc152_16",
-		"tf_anprc152_17",
-		"tf_anprc152_18",
-		"tf_anprc152_19",
-		"tf_anprc152_20",
-		"tf_anprc152_21",
-		"tf_anprc152_22",
-		"tf_anprc152_23",
-		"tf_anprc152_24",
-		"tf_anprc152_25",
-		"tf_anprc152_26",
-		"tf_anprc152_27",
-		"tf_anprc152_28",
-		"tf_anprc152_29",
-		"tf_anprc152_30",
-		"tf_anprc152_31",
-		"tf_anprc152_32",
-		"tf_anprc152_33",
-		"tf_anprc152_34",
-		"tf_anprc152_35",
-		"tf_anprc152_36",
-		"tf_anprc152_37",
-		"tf_anprc152_38",
-		"tf_anprc152_39",
-		"tf_anprc152_40",
-		"tf_anprc152_41",
-		"tf_anprc152_42",
-		"tf_anprc152_43",
-		"tf_anprc152_44",
-		"tf_anprc152_45",
-		"tf_anprc152_46",
-		"tf_anprc152_47",
-		"tf_anprc152_48",
-		"tf_anprc152_49",
-		"tf_anprc152_50",
-		"tf_anprc152_51",
-		"tf_anprc152_52",
-		"tf_anprc152_53",
-		"tf_anprc152_54",
-		"tf_anprc152_55",
-		"tf_anprc152_56",
-		"tf_anprc152_57",
-		"tf_anprc152_58",
-		"tf_anprc152_59",
-		"tf_anprc152_60"
+		"TFAR_anprc152",
+		"TFAR_anprc152_1",
+		"TFAR_anprc152_1",
+		"TFAR_anprc152_2",
+		"TFAR_anprc152_3",
+		"TFAR_anprc152_4",
+		"TFAR_anprc152_5",
+		"TFAR_anprc152_6",
+		"TFAR_anprc152_7",
+		"TFAR_anprc152_8",
+		"TFAR_anprc152_9",
+		"TFAR_anprc152_10",
+		"TFAR_anprc152_11",
+		"TFAR_anprc152_12",
+		"TFAR_anprc152_13",
+		"TFAR_anprc152_14",
+		"TFAR_anprc152_15",
+		"TFAR_anprc152_16",
+		"TFAR_anprc152_17",
+		"TFAR_anprc152_18",
+		"TFAR_anprc152_19",
+		"TFAR_anprc152_20",
+		"TFAR_anprc152_21",
+		"TFAR_anprc152_22",
+		"TFAR_anprc152_23",
+		"TFAR_anprc152_24",
+		"TFAR_anprc152_25",
+		"TFAR_anprc152_26",
+		"TFAR_anprc152_27",
+		"TFAR_anprc152_28",
+		"TFAR_anprc152_29",
+		"TFAR_anprc152_30",
+		"TFAR_anprc152_31",
+		"TFAR_anprc152_32",
+		"TFAR_anprc152_33",
+		"TFAR_anprc152_34",
+		"TFAR_anprc152_35",
+		"TFAR_anprc152_36",
+		"TFAR_anprc152_37",
+		"TFAR_anprc152_38",
+		"TFAR_anprc152_39",
+		"TFAR_anprc152_40",
+		"TFAR_anprc152_41",
+		"TFAR_anprc152_42",
+		"TFAR_anprc152_43",
+		"TFAR_anprc152_44",
+		"TFAR_anprc152_45",
+		"TFAR_anprc152_46",
+		"TFAR_anprc152_47",
+		"TFAR_anprc152_48",
+		"TFAR_anprc152_49",
+		"TFAR_anprc152_50",
+		"TFAR_anprc152_51",
+		"TFAR_anprc152_52",
+		"TFAR_anprc152_53",
+		"TFAR_anprc152_54",
+		"TFAR_anprc152_55",
+		"TFAR_anprc152_56",
+		"TFAR_anprc152_57",
+		"TFAR_anprc152_58",
+		"TFAR_anprc152_59",
+		"TFAR_anprc152_60"
+		
         
 	];
 	
@@ -1292,11 +1359,11 @@ if (isServer) then {
 		"B_LegStrapBag_coyote_F",
 
         // RADIO
-		"AM2_MC_LRR",
+		/*"AM2_MC_LRR",
 		"AM2_Tan_LRR",
 		"AM2_M81_LRR",
 		"AM2_Green_LRR",
-		"tf_rt1523g_black",
+		"TFAR_rt1523g_black",*/
 		
 		// UAVs
 		"B_UAV_06_medical_backpack_F",
